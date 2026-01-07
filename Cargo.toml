@@ -63,6 +63,7 @@ opensearch = { version = "2", optional = true, features = ["aws-auth"] }
 aws-config = { version = "1.2", optional = true, features = [
     "behavior-version-latest",
 ] }
+aws-sdk-bedrockruntime = "1.120.0"
 glob = "0.3.1"
 strum_macros = "0.27.0"
 async-recursion = "1.1.0"
